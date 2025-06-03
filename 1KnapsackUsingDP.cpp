@@ -21,7 +21,7 @@ void knapsack(int n, int W, int wt[], int val[]) {
     cout << "\nDP Table:\n";
     for (int i = 0; i <= n; i++) {
         for (int w = 0; w <= W; w++) {
-            cout << setw(3) << dp[i][w] << " ";
+            cout << setw(3) << dp[i][w] << " ";;
         }
         cout << endl;
     }

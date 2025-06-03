@@ -24,6 +24,7 @@ int binarySearch(int arr[], int n, int key) {
 int main() {
     int arr[] = {2, 4, 6, 8, 10, 12, 14};
     int n = sizeof(arr) / sizeof(arr[0]);
+    cout << sizeof(arr[0]) << endl;
     int key = 10;
 
     int index = binarySearch(arr, n, key);
